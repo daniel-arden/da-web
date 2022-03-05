@@ -1,47 +1,76 @@
 <html lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Daniel1 Arden | A Human</title>
+    <title>Daniel Arden | A Human</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Favicon -->
-    <link rel="icon" href="icon" href="img/logo.png">
-    <link rel="apple-touch-icon" href="img/logo.png">
-</head>
-<body>
-    <div>
-        <h1>COMING SOON...ISH</h1>
-        <p>In the meantime, don't be shy and say Hello!</p>
+    <link rel="icon" href="icon" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
 
-        <div class="chevron-img">
-            <picture>
-                <source
-                    srcset="img/chevron-light.svg"
-                    media="(prefers-color-scheme:dark)"
-                >
-                <img
-                    src="img/chevron-dark.svg"
-                    alt=""
-                >
-            </picture>
+    <!-- Loads the font asynchronously -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" 
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="site-logo">
+                <img src="img/logo.png" alt="Logo" />
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="https://danielarden.com/apps/minicounter/minicounter.html">Apps</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <a href="mailto:me@danielarden.com">
-            <picture>
-                <source
-                    srcset="img/mail-icon-light.svg"
-                    class="mail-img" 
-                    media="(prefers-color-scheme:dark)"
-                >
-                <img 
-                    src="img/mail-icon-dark.svg"
-                    class="mail-img"
-                    alt=""
-                >
-            </picture>
-        </a>
-    </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <div class="container">
+            <p>Hi!<br/>I'm</p>
+            <h1>Daniel Arden</h1>
+            <p>
+                a software developer, music lover, and an aspiring writer<br/>
+                on the journey towards clarity.
+            </p>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 Daniel Arden</p>
+            <div class="footer-icons-links">
+                <a href="https://github.com/daniel-arden" class="footer-icon" target="_blank">
+                    <img src="img/github-dark.svg" alt="GitHub Link" />
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-arden/" class="footer-icon" target="_blank">
+                    <img src="img/linkedin-dark.svg" alt="LinkedIn Link" />
+                </a>
+                <a href="mailto:me@danielarden.com" class="footer-icon">
+                    <img src="img/mail-dark.svg" alt="Email Link" />
+                </a>
+                <a href="https://twitter.com/itsdanielarden" class="footer-icon" target="_blank">
+                    <img src="img/twitter-dark.svg" alt="Twitter Link" />
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
 </body>
+
 </html>
