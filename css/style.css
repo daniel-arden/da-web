@@ -91,7 +91,12 @@ footer img {
 }
 
 footer a {
+    transition: all .2s ease-in-out;
     display: inline-block;
+}
+
+footer a:hover {
+  transform: scale(1.1);
 }
 
 /*  */
@@ -166,4 +171,44 @@ footer p {
   footer p {
     font-size: 0.75rem;
   }
+}
+
+/* Animations */
+@keyframes fadeAnim {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#greeting {
+  animation-name: fadeAnim;
+  animation-duration: 1s;
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
+}
+
+#name {
+  animation-name: fadeAnim;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+#iam {
+  animation-name: fadeAnim;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+#bio {
+  animation-name: fadeAnim;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
 }
