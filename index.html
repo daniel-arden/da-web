@@ -1,47 +1,92 @@
 <html lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Daniel1 Arden | A Human</title>
+    <title>Daniel Arden | A Human</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Favicon -->
-    <link rel="icon" href="icon" href="img/logo.png">
-    <link rel="apple-touch-icon" href="img/logo.png">
-</head>
-<body>
-    <div>
-        <h1>COMING SOON...ISH</h1>
-        <p>In the meantime, don't be shy and say Hello!</p>
+    <link rel="icon" href="icon" href="img/logo-background.png" />
+    <link rel="apple-touch-icon" href="img/logo-background.png" />
 
-        <div class="chevron-img">
-            <picture>
-                <source
-                    srcset="img/chevron-light.svg"
-                    media="(prefers-color-scheme:dark)"
-                >
-                <img
-                    src="img/chevron-dark.svg"
-                    alt=""
-                >
-            </picture>
+    <!-- Loads the font asynchronously -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" 
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="site-logo">
+                <picture>
+                    <source srcset="img/logo-transparent-light.svg" media="(prefers-color-scheme:dark)">
+                    <img src="img/logo-transparent-dark.svg" alt="Logo">
+                </picture>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="https://danielarden.com/apps/minicounter/minicounter.html">Apps</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <a href="mailto:me@danielarden.com">
-            <picture>
-                <source
-                    srcset="img/mail-icon-light.svg"
-                    class="mail-img" 
-                    media="(prefers-color-scheme:dark)"
-                >
-                <img 
-                    src="img/mail-icon-dark.svg"
-                    class="mail-img"
-                    alt=""
-                >
-            </picture>
-        </a>
-    </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <div class="container">
+            <p id="greeting">Hi!</p>
+            <p id="iam">I'm</p>
+            <h1 id="name">Daniel Arden</h1>
+            <p id="bio">
+                a software developer, music lover, and an aspiring writer<br/>
+                on the journey towards clarity.
+            </p>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 Daniel Arden</p>
+            <div class="footer-icons-links">
+                <a href="https://github.com/daniel-arden" class="footer-icon" target="_blank">
+                    <picture>
+                        <source srcset="img/github-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/github-dark.svg" alt="GitHub Link">
+                    </picture>
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-arden/" class="footer-icon" target="_blank">
+                    <picture>
+                        <source srcset="img/linkedin-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/linkedin-dark.svg" alt="LinkedIn Link">
+                    </picture>
+                </a>
+                <a href="mailto:me@danielarden.com" class="footer-icon">
+                    <picture>
+                        <source srcset="img/mail-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/mail-dark.svg" alt="Email Link">
+                    </picture>
+                </a>
+                <a href="https://twitter.com/itsdanielarden" class="footer-icon" target="_blank">
+                    <picture>
+                        <source srcset="img/twitter-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/twitter-dark.svg" alt="Twitter Link">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
 </body>
+
 </html>
