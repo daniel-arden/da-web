@@ -1,5 +1,5 @@
-# da-web
-My Personal Website.
+# My personal website
+Link: [danielarden.com](https://www.danielarden.com)
 
 By creating my personal website I would like to learn some web technologies.
 
