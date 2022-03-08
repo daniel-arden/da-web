@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Favicon -->
-    <link rel="icon" href="icon" href="img/logo.png" />
-    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="icon" href="icon" href="img/logo-background.png" />
+    <link rel="apple-touch-icon" href="img/logo-background.png" />
 
     <!-- Loads the font asynchronously -->
     <link
@@ -24,7 +24,10 @@
     <header>
         <div class="container">
             <div class="site-logo">
-                <img src="img/logo-light-transparent.svg" alt="Logo" />
+                <picture>
+                    <source srcset="img/logo-transparent-light.svg" media="(prefers-color-scheme:dark)">
+                    <img src="img/logo-transparent-dark.svg" alt="Logo">
+                </picture>
             </div>
             <nav>
                 <ul class="nav-list">
@@ -57,16 +60,28 @@
             <p>&copy; 2022 Daniel Arden</p>
             <div class="footer-icons-links">
                 <a href="https://github.com/daniel-arden" class="footer-icon" target="_blank">
-                    <img src="img/github-dark.svg" alt="GitHub Link" />
+                    <picture>
+                        <source srcset="img/github-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/github-dark.svg" alt="GitHub Link">
+                    </picture>
                 </a>
                 <a href="https://www.linkedin.com/in/daniel-arden/" class="footer-icon" target="_blank">
-                    <img src="img/linkedin-dark.svg" alt="LinkedIn Link" />
+                    <picture>
+                        <source srcset="img/linkedin-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/linkedin-dark.svg" alt="LinkedIn Link">
+                    </picture>
                 </a>
                 <a href="mailto:me@danielarden.com" class="footer-icon">
-                    <img src="img/mail-dark.svg" alt="Email Link" />
+                    <picture>
+                        <source srcset="img/mail-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/mail-dark.svg" alt="Email Link">
+                    </picture>
                 </a>
                 <a href="https://twitter.com/itsdanielarden" class="footer-icon" target="_blank">
-                    <img src="img/twitter-dark.svg" alt="Twitter Link" />
+                    <picture>
+                        <source srcset="img/twitter-light.svg" media="(prefers-color-scheme:dark)">
+                        <img src="img/twitter-dark.svg" alt="Twitter Link">
+                    </picture>
                 </a>
             </div>
         </div>

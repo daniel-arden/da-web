@@ -32,7 +32,7 @@ footer p {
 /* Dark and Light Mode Colors */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: #262626;
         color: #f5f5f5;
     }
 
@@ -44,11 +44,11 @@ footer p {
 @media (prefers-color-scheme: light) {
     body {
         background-color: #f5f5f5;
-        color:rgba(0, 0, 0, 0.85);
+        color: #262626;
     }
 
     footer a {
-        color:rgba(0, 0, 0, 0.85);
+        color: #262626;
     }
 }
 
